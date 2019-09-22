@@ -1,3 +1,4 @@
+![npm](https://img.shields.io/npm/v/@mtti/funcs) [![Build Status](https://travis-ci.org/mtti/funcs.svg?branch=master)](https://travis-ci.org/mtti/funcs) ![GitHub last commit](https://img.shields.io/github/last-commit/mtti/funcs)
 
 This is my personal collection of small TypeScript utility functions.
 
