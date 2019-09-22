@@ -1,16 +1,22 @@
 
-This is my personal backend TypeScript base project.
+This is my personal collection of small TypeScript utility functions.
 
-## Checklist
+## Functions
 
-* Modify `package.json`:
-    * Change `name` and `description` to refer to your project
-    * Change `repository` to point to your project's repository
-    * Change `author` if you're not me
-    * Change `license` if you don't want to use Apache 2.0
-    * Consider if you want to change `version` to something else
-    * Consider if you want to remove `private` now, if your eventual plan is to publish to the public NPM registry.
-* Modify or delete `LICENSE` depending on if you want to release your project under the Apache 2.0 license.
-* Remove `.travis.yml` and/or `renovate.json` if you're not planning on using those services.
-* Modify `.eslintrc.json` and remove the `@mtti/eslint-config-typescript` dependency if you don't want to use my personal ESLint configs.
-* Replace the content of this `README.md` with something relevant to your project.
+### fromEntries
+
+```typescript
+function fromEntries<K extends string | number | symbol, V>(entries: [string, V][]): Record<K, V>
+```
+
+Creates an object from an array of key-value pairs.
+
+The opposite of `Object.entries()` for when your environment doesn't support [`Object.fromEntries()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries).
+
+### toArray
+
+```typescript
+function toArray<T>(value: T|T[]): T[]
+```
+
+When you want to accept either an individual thing **or** an array of things but only want to deal with the array version, this function will take either an existing array and return it directly, or an individual item and return an array containing just it.
