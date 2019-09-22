@@ -22,7 +22,9 @@
     "tsc": "tsc"
   },
   "files": [
-    "dist"
+    "dist",
+    "!dist/*.spec.js",
+    "!dist/*.spec.d.ts"
   ],
   "devDependencies": {
     "@mtti/eslint-config-typescript": "1.0.0",

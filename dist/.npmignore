@@ -1,4 +1,0 @@
-.npmignore
-.gitignore
-dist/**/*.spec.js
-*.spec.*
