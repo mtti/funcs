@@ -1,3 +1,4 @@
-export * from './expectSingle';
-export * from './fromEntries';
-export * from './toArray';
+export * from './functions/expectSingle';
+export * from './functions/fromEntries';
+export * from './functions/lastOf';
+export * from './functions/toArray';
