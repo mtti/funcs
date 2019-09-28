@@ -22,6 +22,14 @@ Given a single item or an array with a single item, returns that item. Throws an
 
 Kind of an opposite of `toArray()`.
 
+## firstOf
+
+```typescript
+function firstOf<T>(arr: readonly T[]): T
+```
+
+Returns the last item of an array or throws an error if the input is not an array, or is an empty array.
+
 ### fromEntries
 
 ```typescript
@@ -38,7 +46,7 @@ The opposite of `Object.entries()` for when your environment doesn't support [`O
 function lastOf<T>(arr: readonly T[]): T
 ```
 
-Returns the item element of an array or throws an error if the input is not an array, or is an empty array.
+Returns the last item of an array or throws an error if the input is not an array, or is an empty array.
 
 ### removeFalsies
 
