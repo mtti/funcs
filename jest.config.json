@@ -1,6 +1,6 @@
 {
   "collectCoverage": true,
-  "testPathIgnorePatterns": ["/node_modules/", "<rootDir>/dist/"],
+  "testPathIgnorePatterns": ["/node_modules/", "<rootDir>/lib/"],
   "testMatch": [ "**/?(*.)+(spec|test).ts" ],
   "preset": "ts-jest"
 }
