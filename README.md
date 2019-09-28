@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/@mtti/funcs) [![Build Status](https://travis-ci.org/mtti/funcs.svg?branch=master)](https://travis-ci.org/mtti/funcs) ![GitHub last commit](https://img.shields.io/github/last-commit/mtti/funcs)
+![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm)](https://www.npmjs.com/package/@mtti/funcs) [![Travis](https://flat.badgen.net/travis/mtti/funcs?icon=travis)](https://travis-ci.org/mtti/funcs) [![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
 
 This is my personal collection of small TypeScript utility functions.
 
