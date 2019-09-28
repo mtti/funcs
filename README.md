@@ -33,7 +33,7 @@ Returns the last item of an array or throws an error if the input is not an arra
 ### fromEntries
 
 ```typescript
-function fromEntries<K extends string | number | symbol, V>(entries: [string, V][]): Record<K, V>
+function fromEntries<K extends string | number | symbol, V>(entries: readonly [string, V][]): Record<K, V>
 ```
 
 Creates an object from an array of key-value pairs.
@@ -51,7 +51,7 @@ Returns the last item of an array or throws an error if the input is not an arra
 ### removeFalsies
 
 ```typescript
-function removeFalsies<T>(arr: Array<T | Falsy>): T[]
+function removeFalsies<T>(arr: ReadonlyArray<T | Falsy>): T[]
 ```
 
 Returns a copy of an array with falsy values removed.

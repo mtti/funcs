@@ -5,7 +5,7 @@ import { Falsy } from '../types/Falsy';
  *
  * @param arr
  */
-export function removeFalsies<T>(arr: Array<T | Falsy>): T[] {
+export function removeFalsies<T>(arr: ReadonlyArray<T | Falsy>): T[] {
   const reducer = (acc: T[], current: T | Falsy): T[] => (
     current ? [...acc, current] : acc
   );
