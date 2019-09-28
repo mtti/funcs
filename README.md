@@ -32,6 +32,22 @@ Creates an object from an array of key-value pairs.
 
 The opposite of `Object.entries()` for when your environment doesn't support [`Object.fromEntries()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries).
 
+### lastOf
+
+```typescript
+function lastOf<T>(arr: readonly T[]): T
+```
+
+Returns the item element of an array or throws an error if the input is not an array, or is an empty array.
+
+### removeFalsies
+
+```typescript
+function removeFalsies<T>(arr: Array<T | Falsy>): T[]
+```
+
+Returns a copy of an array with falsy values removed.
+
 ### toArray
 
 ```typescript
@@ -39,3 +55,13 @@ function toArray<T>(value: T|T[]): T[]
 ```
 
 When you want to accept either an individual thing **or** an array of things but only want to deal with the array version, this function will take either an existing array and return it directly, or an individual item and return an array containing just it.
+
+## Types
+
+### Falsy
+
+```typescript
+type Falsy = false | 0 | '' | null | undefined;
+```
+
+Most falsy values, except for `NaN`.
