@@ -12,6 +12,14 @@ If a function's name start with `is`, it checks that its argument(s) match some 
 
 ## Functions
 
+### ensureEndsWith
+
+```typescript
+const ensureEndsWith = (subject: string, suffix: string): string
+```
+
+Add a suffix to a string if it doesn't already have it.
+
 ### ensureStartsWith
 
 ```typescript
