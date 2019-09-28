@@ -12,6 +12,14 @@ If a function's name start with `is`, it checks that its argument(s) match some 
 
 ## Functions
 
+### ensureStartsWith
+
+```typescript
+const ensureStartsWith = (subject: string, prefix: string): string
+```
+
+Add a prefix to a string if it doesn't already have it.
+
 ### expectSingle
 
 ```typescript

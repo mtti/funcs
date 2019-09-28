@@ -1,3 +1,4 @@
+export * from './functions/ensureStartsWith';
 export * from './functions/expectSingle';
 export * from './functions/firstOf';
 export * from './functions/fromEntries';
