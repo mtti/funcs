@@ -5,7 +5,7 @@
  * @returns An object constructed from `entries`.
  */
 export function fromEntries<K extends string | number | symbol, V>(
-  entries: [string, V][],
+  entries: readonly [string, V][],
 ): Record<K, V> {
   return entries
     .reduce((
