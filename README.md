@@ -20,6 +20,14 @@ const ensureEndsWith = (subject: string, suffix: string): string
 
 Add a suffix to a string if it doesn't already have it.
 
+### ensureNotStartsWith
+
+```typescript
+const ensureNotStartsWith = (subject: string, prefix: string): string
+```
+
+Removes a prefix from string if it has one.
+
 ### ensureStartsWith
 
 ```typescript
