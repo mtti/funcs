@@ -1,4 +1,5 @@
 export * from './functions/ensureEndsWith';
+export * from './functions/ensureNotEndsWith';
 export * from './functions/ensureNotStartsWith';
 export * from './functions/ensureStartsWith';
 export * from './functions/expectSingle';
