@@ -1,14 +1,19 @@
-![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm)](https://www.npmjs.com/package/@mtti/funcs) [![Travis](https://flat.badgen.net/travis/mtti/funcs?icon=travis)](https://travis-ci.org/mtti/funcs) [![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
+[![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm)](https://www.npmjs.com/package/@mtti/funcs) [![Travis](https://flat.badgen.net/travis/mtti/funcs?icon=travis)](https://travis-ci.org/mtti/funcs) [![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
 
 This is my personal collection of small TypeScript utility functions.
 
 ## Conventions
 
-If a function's name starts with `assert`, it checks that its argument(s) match some expectation and will throw an error if they don't, but won't return anything.
+The functions exposed by this library are pure. They always return the same value for the same arguments and they have no side effect.
 
-If a function's name starts with `expect`, it will transform its arguments into its return value if possible, or throw an error if not. For example: `expectSingle()`.
+This library has no external runtime dependencies. Functions in this library can depend on other functions from this library, but must be simple enough not to need external dependencies.
 
-If a function's name start with `is`, it checks that its argument(s) match some expectation and will return a boolean accordingly. They can also be type guards.
+Functions whose names start with...
+
+* `assert` check that their input matches some expectation and throw an error if they not, but won't return anything.
+* `ensure` transform their input to match some condition if it does not already.
+* `expect` transform their input into the return value if possible, or throw an error if not. For example: `expectSingle()`.
+* `is` check that their input match some expectation and will return a boolean accordingly. They can also be type guards.
 
 ## Functions
 
