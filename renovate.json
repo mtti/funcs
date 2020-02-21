@@ -1,5 +1,9 @@
 {
   "extends": [
     "config:js-lib"
-  ]
+  ],
+  "schedule": [
+    "on friday"
+  ],
+  "automerge": true
 }
