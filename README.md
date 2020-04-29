@@ -1,10 +1,10 @@
-[![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm)](https://www.npmjs.com/package/@mtti/funcs) ![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
+[![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm)](https://www.npmjs.com/package/@mtti/funcs) [![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
 
 This is my personal collection of small TypeScript utility functions.
 
 ## Conventions
 
-The functions exposed by this library are pure. They always return the same value for the same arguments and they have no side effect.
+This library exposes pure functions. They always return the same value for the same arguments and they have no side effect.
 
 This library has no external runtime dependencies. Functions in this library can depend on other functions from this library, but must be simple enough not to need external dependencies.
 
