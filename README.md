@@ -93,6 +93,14 @@ function removeFalsies<T>(arr: ReadonlyArray<T | Falsy>): T[]
 
 Returns a copy of an array with falsy values removed.
 
+### sleep
+
+```typescript
+function sleep(ms: number): Promise<void>
+```
+
+Returns a promise which will be resolved after the specified number of milliseconds. A helper to ease adding random delays to `async` functions. Uses `setTimeout` so [the actual duration is not guaranteed](https://nodejs.org/api/timers.html#timers_settimeout_callback_delay_args).
+
 ### toArray
 
 ```typescript
