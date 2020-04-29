@@ -93,6 +93,14 @@ function removeFalsies<T>(arr: ReadonlyArray<T | Falsy>): T[]
 
 Returns a copy of an array with falsy values removed.
 
+### series
+
+```typescript
+function series<T = unknown>(tasks: Array<() => Promise<T>>): Promise<T[]>
+```
+
+Executes an array of asynchronous tasks in series, one by one.
+
 ### sleep
 
 ```typescript
