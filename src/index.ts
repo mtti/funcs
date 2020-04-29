@@ -7,6 +7,7 @@ export * from './functions/firstOf';
 export * from './functions/fromEntries';
 export * from './functions/lastOf';
 export * from './functions/removeFalsies';
+export * from './functions/series';
 export * from './functions/sleep';
 export * from './functions/toArray';
 
