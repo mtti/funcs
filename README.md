@@ -49,6 +49,14 @@ const ensureStartsWith = (subject: string, prefix: string): string
 
 Add a prefix to a string if it doesn't already have it.
 
+### expectInteger
+
+```typescript
+const expectInteger = (value: unknown): number
+```
+
+Checks if a value of unknown type is an integer `number` or a string representation of one and returns it as a `number` if it is, or throws an error if it's not.
+
 ### expectSingle
 
 ```typescript
@@ -58,6 +66,14 @@ function expectSingle<T>(source: T|T[]): T
 Given a single item or an array with a single item, returns that item. Throws an error if given an array with more than one item.
 
 Kind of an opposite of `toArray()`.
+
+### expectString
+
+```typescript
+const expectString = (value: unknown): string
+```
+
+Checks if a value of unknown type is a string and returns it as such  if it is, otherwise throws an error.
 
 ## firstOf
 
