@@ -21,6 +21,11 @@
     "test:docker": "docker build -f ./Dockerfile-test -t ts-test . && docker run --rm -it ts-test",
     "tsc": "tsc"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  },
   "files": [
     "lib",
     "!lib/**/*.spec.js",
@@ -35,6 +40,7 @@
     "@typescript-eslint/parser": "3.2.0",
     "eslint": "7.2.0",
     "eslint-plugin-import": "2.21.2",
+    "husky": "4.2.5",
     "jest": "26.0.1",
     "ts-jest": "26.1.0",
     "typescript": "3.9.5"
