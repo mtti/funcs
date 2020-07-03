@@ -10,7 +10,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run generate:exports && tsc",
     "jest": "jest --config ./jest.config.json",
     "lint": "eslint 'src/**/*.ts'",
     "lint:fix": "eslint --fix 'src/**/*.ts'",
@@ -19,7 +19,8 @@
     "setup": "npm install",
     "test": "npm run lint && npm run jest",
     "test:docker": "docker build -f ./Dockerfile-test -t ts-test . && docker run --rm -it ts-test",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "generate:exports": "node ./scripts/generate-exports.js"
   },
   "husky": {
     "hooks": {
