@@ -34,7 +34,7 @@
     "!lib/**/*.spec.js.map"
   ],
   "devDependencies": {
-    "@mtti/eslint-config-typescript": "2.0.0",
+    "@mtti/eslint-config-typescript": "2.1.0",
     "@types/jest": "26.0.3",
     "@types/node": "13.13.5",
     "@typescript-eslint/eslint-plugin": "3.5.0",
