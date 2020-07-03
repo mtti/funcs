@@ -1,4 +1,3 @@
-
 const integerPattern = /^-?[0-9]+$/i;
 
 /**
