@@ -1,3 +1,5 @@
+// AUTOMATICALLY GENERATED. DO NOT EDIT BY HAND.
+
 export * from './functions/ensureEndsWith';
 export * from './functions/ensureNotEndsWith';
 export * from './functions/ensureNotStartsWith';
