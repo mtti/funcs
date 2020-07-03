@@ -1,4 +1,4 @@
-[![Written in TypeScript](https://flat.badgen.net/badge/icon/typescript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm)](https://www.npmjs.com/package/@mtti/funcs) [![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
+[![Written in TypeScript](https://flat.badgen.net/badge/icon/TypeScript?icon=typescript&label)](http://www.typescriptlang.org/) [![npm](https://flat.badgen.net/npm/v/@mtti/funcs?icon=npm&label)](https://www.npmjs.com/package/@mtti/funcs) [![License](https://flat.badgen.net/github/license/mtti/funcs)](https://github.com/mtti/funcs/blob/master/LICENSE)
 
 This is my personal collection of small TypeScript utility functions.
 
@@ -123,7 +123,7 @@ Executes an array of asynchronous tasks in series, one by one.
 function sleep(ms: number): Promise<void>
 ```
 
-Returns a promise which will be resolved after the specified number of milliseconds. A helper to ease adding random delays to `async` functions. Uses `setTimeout` so [the actual duration is not guaranteed](https://nodejs.org/api/timers.html#timers_settimeout_callback_delay_args).
+Returns a promise which will be resolved after the specified number of milliseconds. A helper to ease adding delays to `async` functions. Uses `setTimeout` so [the actual duration is not guaranteed](https://nodejs.org/api/timers.html#timers_settimeout_callback_delay_args).
 
 ### toArray
 
