@@ -35,7 +35,7 @@
   ],
   "devDependencies": {
     "@mtti/eslint-config-typescript": "2.1.0",
-    "@types/jest": "26.0.4",
+    "@types/jest": "26.0.7",
     "@types/node": "13.13.5",
     "@typescript-eslint/eslint-plugin": "3.6.1",
     "@typescript-eslint/parser": "3.6.1",
