@@ -16,3 +16,4 @@ export * from './functions/sleep';
 export * from './functions/toArray';
 
 export * from './types/Falsy';
+export * from './types/OrArray';
