@@ -142,3 +142,11 @@ type Falsy = false | 0 | '' | null | undefined;
 ```
 
 Most falsy values, except for `NaN`.
+
+### OrArray
+
+```typescript
+type OrArray<T> = T|T[];
+```
+
+A single value or an array of values of the same type.
