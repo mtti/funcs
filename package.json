@@ -1,12 +1,12 @@
 {
   "name": "@mtti/funcs",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "A collection of TypeScript utility functions",
   "repository": "github:mtti/funcs",
   "author": "Matti Hiltunen",
   "license": "Apache-2.0",
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=14.0.0"
   },
   "main": "lib/index.js",
   "scripts": {
