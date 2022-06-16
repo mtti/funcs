@@ -37,13 +37,13 @@
     "@mtti/eslint-config-typescript": "3.0.0",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.6",
-    "@typescript-eslint/eslint-plugin": "5.27.1",
-    "@typescript-eslint/parser": "5.27.1",
+    "@typescript-eslint/eslint-plugin": "5.28.0",
+    "@typescript-eslint/parser": "5.28.0",
     "eslint": "8.17.0",
     "eslint-plugin-import": "2.26.0",
     "husky": "8.0.1",
     "jest": "28.1.1",
-    "ts-jest": "28.0.4",
+    "ts-jest": "28.0.5",
     "typescript": "4.7.3"
   }
 }
